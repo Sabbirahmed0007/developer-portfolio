@@ -176,30 +176,121 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
-     gap: 10px;
+     gap: 30px;
 
 }
 
 .skill-card{
-    border: 1px black dotted;
+    /* border: 1px black dotted; */
     /* width: 300px; */
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 10px 10px 2px 2px rgba(0, 0, 0, 0.1) ;
      
 
 
 }
 
 
+/* Resume Section */
+
+.resume-container{
+    width: 80%;
+    margin: 70px auto;
+    
+
+}
+
+
+.resume-container h1{
+    text-align: center;
+}
+
+.resume-info{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+
+.common-border{
+
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+
+.cv-button{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-regular{
+    font-size: 20px;
+    
+}
+.cv-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
 
 
 
 
+/* Footer section */
+
+
+footer{
+    background-color:#FFF8F3;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+
+.footer-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;    
+    gap: 20px;
+}
+
+
+.social-container{
+    /* margin: 20px ; */
+    width: 50%;
+}
 
 
 
+.social{
+    font-size: 30px;
+    margin: 3px 10px;
+}
 
 
+/* Newsletter */
+
+.newslatter-cointainer{
+    width: 50%;
+
+}
+
+.input{
+    border: none;
+    margin-bottom: 20px;
+    padding: 15px 7px;
+    width: 400px;
+    outline: none;
+}
 
 
 /* mobile view */
@@ -243,7 +334,35 @@
     .skill-card{
         padding: 30px;
     }
-    
+    .skill-card p {
+        padding: 20px;
+    }
+
+
+
+    /* Resume Section */
+
+    .resume-info{
+        flex-direction: column;
+    }
+
+
+    .footer-container{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+        .input {
+            border: none;
+            margin-bottom: 20px;
+            padding: 15px 7px;
+            width: 300px;
+            outline: none;
+        }
+
+
 }
 
 
